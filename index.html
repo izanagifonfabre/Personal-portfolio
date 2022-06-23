@@ -9,42 +9,53 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a72f11d7a8.js" crossorigin="anonymous"></script>
     <title>Portfolio de proyectos</title>
 </head>
 <body>
-    <nav id="navbar">
-        <ul class="navbar-list">
-          <li><a href="#welcome-section" id="welcome-link" class="navbar-link">Sobre mi</a></li>
-          <li><a href="#projects" id="project-link" class="navbar-link">Proyectos</a></li>
-          <li><a href="https://github.com/izanagifonfabre" id="profile-link" class="navbar-link" target="_blank">Github</a></li>
-        </ul>
-      </nav>
-      <section id="welcome-section">
-        <h1>Federico Javier Loriente Pinto</h1>
-        <p class="subtitulo-esp">Argentino. Desarrollador web en formación.</p>
-        <p class="subtitle-eng">Argentinian. Web Dev in training</p>
-        <p class="texto-bienvenida">Empecé a tomar clases de Desarrollo web durante 2020, en medio de la cuarentena producto de la pandemia del COVID-19</p>
-      </section>
-      <section id="projects">
-        <h3 class="projects-title">Mis proyectos</h3>
-        <p>Un pequeño muestrario de los proyectos que realicé durante mi formación como desarrollador.</p>
-        <div class="projects-grid">  
-          <a href="https://izanagifonfabre.github.io/odin-recipes" class="project-tile" target="_blank">
-            <img src="./assets/Captura recetario.png" alt="Captura de pantalla del proyecto 'Recetas populares Argentinas'" class="project-img">
-            <p class="project-tile-text">Recetario popular argentino.<br> Diseño sencillo, no responsivo.<br>Tecnologías utilizadas: HTML - CSS - GIT (por CMD)</p>
-          </a>
-          <a href="https://izanagifonfabre.github.io/propinApp/" class="project-tile" target="_blank">
-            <img src="./assets/Captura PropinApp.png" alt="Captura de pantalla del proyecto 'PropinApp'" class="project-img">
-            <p class="project-tile-text">"PropinApp".<br>Calculadora de propinas segun costo y cantidad de personas.</br>Tecnologías utilizadas: HTML - CSS - JavaScript - GIT (mediante CMD)</p>
-          </a>
-          <a href="https://izanagifonfabre.github.io/propinApp/" class="project-tile" target="_blank">
-            <img src="./assets/Captura Pagina tributo.png" alt="Captura de pantalla del proyecto 'Página tributo'" class="project-img">
-            <p class="project-tile-text">Página tributo.<br>Realizada siguiendo el curriculum de freecodecamp.org</br>Realizado en CodePen</br>Tecnologías utilizadas: HTML - CSS</p>
-          </a>
-        </div>
-      </section>
-      <section id="socials">
-        <h2>Placeholder text</h2>  
-      </section>
+  <nav id="navbar">
+    <ul class="navbar-list">
+      <li><a href="#welcome-section" id="welcome-link" class="navbar-link">Sobre mi</a></li>
+      <li><a href="#projects" id="project-link" class="navbar-link">Proyectos</a></li>
+      <li><a href="https://github.com/izanagifonfabre" id="profile-link" class="navbar-link" target="_blank"><i class="fa-brands fa-github"></i>Github</a></li>
+    </ul>
+  </nav>
+  <section id="welcome-section">
+    <h1>Federico Javier Loriente Pinto</h1>
+    <p class="subtitulo-esp">Argentino. Desarrollador web en formación.</p>
+    <p class="subtitle-eng">Argentinian. Web Dev in training</p>
+    <p class="texto-bienvenida">Empecé a tomar clases de Desarrollo web durante 2020, en medio de la cuarentena producto de la pandemia del COVID-19</p>
+  </section>
+  <section id="projects">
+    <h3 class="section-title">Mis proyectos</h3>
+    <p>Un pequeño muestrario de los proyectos que realicé durante mi formación como desarrollador.</p>
+    <div class="projects-grid">  
+      <a href="https://izanagifonfabre.github.io/odin-recipes" class="project-tile" target="_blank">
+        <img src="./assets/Captura recetario.png" alt="Captura de pantalla del proyecto 'Recetas populares Argentinas'" class="project-img">
+        <p class="project-tile-text">Recetario popular argentino.<br> Diseño sencillo, no responsivo.<br>Tecnologías utilizadas: HTML - CSS - GIT (por CMD)</p>
+      </a>
+      <a href="https://izanagifonfabre.github.io/propinApp/" class="project-tile" target="_blank">
+        <img src="./assets/Captura PropinApp.png" alt="Captura de pantalla del proyecto 'PropinApp'" class="project-img">
+        <p class="project-tile-text">"PropinApp".<br>Calculadora de propinas segun costo y cantidad de personas.</br>Tecnologías utilizadas: HTML - CSS - JavaScript - GIT (mediante CMD)</p>
+      </a>
+      <a href="https://izanagifonfabre.github.io/propinApp/" class="project-tile" target="_blank">
+        <img src="./assets/Captura Pagina tributo.png" alt="Captura de pantalla del proyecto 'Página tributo'" class="project-img">
+        <p class="project-tile-text">Página tributo.<br>Realizada siguiendo el curriculum de freecodecamp.org</br>Realizado en CodePen</br>Tecnologías utilizadas: HTML - CSS</p>
+      </a>
+    </div>
+  </section>
+  <section id="socials">
+      <h2 class="sections-title">¡Pongámonos en contacto!</h2>
+      <p>Mis redes sociales:</p>
+      <div class="contact-links">
+        <a href="https:///www.twitter.com/izanagifonfabre" class="contact-btn"><i class="fa-brands fa-twitter"></i> Twitter</a>
+        <a href="https:///www.twitter.com/izanagifonfabre" class="contact-btn"><i class="fa-brands fa-github"></i> Github</a>
+        <a href="mailto:federicolorientepinto@gmail.com" class="contact-btn"><i class="fa-solid fa-at"></i> Correo electrónico</a>
+        <a href="https://t.me/izanagifonfabre" class="contact-btn"><i class="fa-brands fa-telegram"></i></i> Telegram</a>
+      </div>  
+  </section>
+  <footer class="footer">
+    <p class="footer-text">Portfolio realizado siguiendo el curriculum de freecodecamp.org</p>
+  </footer>
 </body>
 </html>
